@@ -15,7 +15,7 @@ class Program
     {
         List<Producto> productos = new List<Producto>();
 
-        // CREATE
+        // CREAR
         productos.Add(new Producto
         {
             Id = 1,
@@ -23,16 +23,16 @@ class Program
             Precio = 15
         });
 
-        // READ
+        // LEER
         var producto =
             productos.FirstOrDefault(p => p.Id == 1);
 
         Console.WriteLine(producto.Nombre);
 
-        // UPDATE
+        // ACTUALIZAR
         producto.Precio = 20;
 
-        // DELETE
+        // ELIMINAR
         productos.Remove(producto);
 
         Console.WriteLine("Registros restantes: "
