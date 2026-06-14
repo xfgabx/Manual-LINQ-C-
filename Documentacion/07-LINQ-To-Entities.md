@@ -1,4 +1,4 @@
-# 7. LINQ to Entities
+# 7. LINQ to Entities 
 
 ## Introducción
 
