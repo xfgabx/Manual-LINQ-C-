@@ -78,7 +78,7 @@ El objetivo es proporcionar una guía integral que permita comprender el funcion
 
 ```text
 Documentacion/
-CodigoEjemplos/
+CodigoEjemplo/
 Imagenes/
 ```
 
