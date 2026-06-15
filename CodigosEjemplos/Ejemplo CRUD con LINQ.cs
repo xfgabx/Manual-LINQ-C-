@@ -99,7 +99,7 @@ class Program
 
         negocio.Guardar(producto);
 
-        // R
+        // LEER
 
         var encontrado =
             negocio.Buscar(1);
@@ -107,7 +107,7 @@ class Program
         Console.WriteLine(
             encontrado.Nombre);
 
-        // DELETE
+        // ELIMINAR
 
         negocio.Eliminar(1);
 
